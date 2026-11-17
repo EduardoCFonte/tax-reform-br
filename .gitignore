@@ -1,0 +1,18 @@
+# Ambiente virtual e caches do Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Segredos: o .env nunca entra; o .env.example (sem segredo) entra
+.env
+!.env.example
+
+# Dados reais de clientes nunca entram no repositório
+dados/
+
+# Editores
+.vscode/
+.idea/

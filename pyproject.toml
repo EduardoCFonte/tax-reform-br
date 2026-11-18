@@ -20,4 +20,5 @@ build-backend = "uv_build"
 dev = [
     "httpx2>=2.16.2",
     "pytest>=9.2.0",
+    "ruff>=0.17.5",
 ]
